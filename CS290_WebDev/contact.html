@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Andrew Suezaki</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+<body class="contactpic">
+    <!-- website title -->
+    <div class="title">
+        <h1><span style="font-weight: normal;"><a href="index.html" class="titlelink">Andrew Suezaki</a></span></h1>
+    </div>
+    <!-- navigation bar --> 
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a class="active" href="contact.html">Contact</a>
+    </div>
+    <!-- Contact form (POST request) -->
+    <form>
+        <fieldset>
+            <h2 style="font-size: x-large; text-align: center;">Contact Me</h2>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="names">
+            <br><br>
+            <label for="email">E-mail:</label>
+            <input type="text" name="email" id="emails">
+            <br><br>
+            <label for="message">Message:</label>
+            <br>
+            <textarea name="message" id="messages" rows="5" style="width: 100%;"></textarea>
+            <br><br>
+            <input type="submit" id="submits">
+            <br>
+            <span style="font-size: smaller;">*Messages currently post to httpbin*</span>
+        </fieldset>
+    </form>
+    <div>
+        <p><span class="formresponse" id="input"></span></p>
+        <p><span class="formresponse" id="response"></span></p>
+    </div>
+    <!--img src="https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" style="width: 40%; float: right; padding-bottom: 100px; padding-right: 50px;"> -->
+    <!-- contact info table -->
+    <div class="contactinfo-wrapper">
+        <table class="contactinfo">
+            <caption style="font-size: xx-large;"><b>Contact Information</b></caption>
+            <tbody>
+                <tr style="float:left; padding-left: 50px;">
+                    <th>Email:</th>
+                    <td><a href="mailto: suezakia@oregonstate.edu">suezakia@oregonstate.edu,</a></td>
+                    <td><a href="mailto: andrewsuezaki@gmail.com">andrewsuezaki@gmail.com</a></td>
+                </tr>
+                <tr>
+                    <td><a href="https://github.com/asuezaki"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" style="width: 10%; float: left; padding-left: 40px;"></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- Footer -->
+    <div class="foot">
+        <footer>
+            <p>all images taken from <a href="https://unsplash.com/" class="piccite">unsplash</a></p>
+        </footer>
+    </div>
+</body>
+<script src="contact.js"></script>
+</html>
