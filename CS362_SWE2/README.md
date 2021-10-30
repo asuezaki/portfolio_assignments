@@ -1,8 +1,8 @@
-Assignment Details
+**Assignment Details**
 
 The goal of this portion of the project is to take time to reflect on your experiences with a Continuous Integration workflow. It is important to examine this process, as it is something you are very likely to encounter when you get your first job. Being able to articulate how Continuous Integration aids software development can come in very handy in an interview.
 
-Prompt:
+**Prompt**
 
 For this paper please address each of the following. Organize your paper along the provided sections listed below.
 
