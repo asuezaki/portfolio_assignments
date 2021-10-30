@@ -1,3 +1,4 @@
+See Project_2.pdf for Assignment Spec.
 Program was developed in pycharm.
 Python version: 3.7.4
 Imports: The programs use modules from the python standard library
